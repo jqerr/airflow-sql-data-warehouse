@@ -1,0 +1,16 @@
+version: 2
+
+models:
+  - name: crm_cust_info
+    columns:
+      - name: cst_id
+        tests:
+          - unique
+          - not_null
+
+  - name: crm_prd_info
+    columns:
+      - name: prd_id
+        tests:
+          - unique
+          - not_null
