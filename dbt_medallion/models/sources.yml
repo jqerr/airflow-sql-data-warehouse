@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: bronze
+    database: datawarehouse
+    schema: bronze
+    tables:
+      - name: crm_cust_info
+      - name: crm_prd_info
+      - name: crm_sales_details
+      - name: erp_cust_az_12
+      - name: erp_loc_a_101
+      - name: erp_px_cat_g_1_v_2
